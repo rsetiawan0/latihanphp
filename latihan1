@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>List dengan PHP</title>
+   </head>
+<body>
+<h2>Daftar siswa</h2>
+   <ol>
+      <?php
+      for ($i= 1; $i <= 10; $i++) 
+         {
+            echo "<li>Nama siswa ke-$i</li>";
+            echo "<li>Nama kamu ke - $i</li>"
+         }
+      ?>
+     
+   </ol
+</body>
+</html>
